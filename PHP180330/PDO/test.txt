@@ -1,0 +1,7 @@
+create table student(
+id int primary key auto_increment,
+age tinyint unsigned not null default 10,
+username varchar(10) not null default '',
+chengji int not null default 0
+ char()
+)ENGINE=innodb default charset=utf8;
